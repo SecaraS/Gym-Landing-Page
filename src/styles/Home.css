@@ -1,0 +1,369 @@
+body {
+  overflow-x: hidden;
+  height: 100vh;
+  background-image: url("../assets/gallery/galleryBack.jpg");
+  background-position: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.homeContainer {
+  background-color: black;
+}
+.homeSection {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  height: 91vh;
+  display: flex;
+  overflow: hidden;
+  background-size: cover;
+  background-color: rgb(0, 0, 0);
+}
+.homePrev {
+  margin: 20vh auto;
+}
+.fTitle,
+.sTitle {
+  color: white;
+  font-size: 40px;
+  margin-top: 10px;
+}
+.fTitle {
+  font-size: 50px;
+}
+
+.homeSection img {
+  width: 50vw;
+  height: 91vh;
+  object-fit: cover;
+}
+.boxyImg {
+  width: 100vw;
+  object-fit: cover;
+  height: 100vh;
+}
+.homeIcons {
+  display: grid;
+  grid-template-columns: repeat(4,25%);
+  gap: 2vw;
+  position: absolute;
+    bottom: 5vh;
+}
+.homeIcons img {
+  width: 100px;
+  height: 100px;
+}
+.homeBtn {
+  font-family: 'Supernova', sans-serif;
+  font-size: 38px;
+  font-weight: 700;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  border: none;
+  margin-top: 15px;
+}
+.homeBtn:hover {
+  transform: scale(1.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.orange-arrow {
+  color: orange;
+  font-weight: 400;
+}
+
+/*second section +++++++++++++++++++++++++ */
+.homeGrid {
+  text-align: center;
+  display: grid;
+  grid-auto-rows: 300px;
+  gap: 50px;
+  grid-template-columns: repeat(3, 300px);                                            
+  position: absolute;
+  color: white;
+  margin: 10vh; 
+}
+.tableSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.tableDetailed {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.serviceSub {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+.serviceP {
+font-family: 'Supernova',
+sans-serif;
+margin: 15px;
+font-size: 20px;
+}
+.serviceIcons {
+  margin-top: 10px;
+}
+.serviceGrid {
+  background-color: rgb(83, 83, 83);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.fSport1,
+ .fSport2,
+  .fSport3,
+   .fSport4,
+    .fSport5 {
+  background-color: rgb(63, 63, 63);
+}
+@media (min-height: 780px) {
+  .homeSection {
+    height: 90vh;
+  }
+    .tableSection {
+      height: auto;
+    }
+}
+@media (max-width: 1200px) {
+  .fTitle {
+    font-size: 45px;
+  }
+  .sTitle {
+    font-size: 35px;
+    padding: 10px;
+  }
+  .homeGrid {
+    gap: 40px;
+    grid-auto-rows: 280px;
+    grid-template-columns: repeat(3, 280px);
+  }
+  .serviceSub {
+    margin-bottom: 20px;
+  } 
+  .serviceP {
+    margin: 10px;
+  }
+}
+@media (max-width: 1025px) {
+.homeIcons {
+grid-template-columns: repeat(4, 30%);
+gap: 1.0vw;
+margin: 0 20px;
+}
+
+  .homeIcons img {
+      width: 80px;
+      height: 80px;
+    }
+    .homeGrid {
+      grid-auto-rows: 250px;
+      grid-template-columns: repeat(3, 250px);
+      gap: 30px;
+    }
+    .serviceGrid img {
+      width: 50px;
+      height: 50px;
+    }
+        .serviceIcons {
+          width: 80px;
+          height: 80px;
+        }
+
+}
+@media (max-width: 855px) {
+  .fTitle {
+    font-size: 40px;
+  }
+  .sTitle {
+    font-size: 30px;
+  }
+  .homeBtn {
+    font-size: 34px;
+  }
+  .homeIcons {
+      grid-template-columns: repeat(4, 30%);
+      gap: 0.8vw;
+      margin: 0 15px;
+    }
+ .homeIcons img {
+  margin-bottom: 20px;
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+ }
+ .serviceSub {
+   font-size: 20px;
+ }
+ .serviceP {
+  font-size: 19px;
+ }
+ .homeGrid {
+   grid-auto-rows: 220px;
+   grid-template-columns: repeat(3, 210px);
+   gap: 30px;
+ }
+  .serviceIcons {
+    width: 60px;
+    height: 60px;
+  }
+}
+@media (max-width: 750px) {
+  .homeSection {
+    height: 83vh;
+  }
+  .serviceGrid img {
+    height: 40px;
+    width: 40px;
+  }
+  .homeIcons {
+        grid-template-columns: repeat(4, 25%);
+        gap: 0.8vw;
+        bottom: 10vh;
+        left: 3vw;
+      }
+    
+      .homeIcons img {
+        width: 60px;
+        height: 60px;
+      }
+  .homeGrid {
+      grid-auto-rows: 230px;
+      grid-template-columns: repeat(3, 180px);
+      gap: 20px;
+    }
+    .serviceIcons {
+      width: 50px;
+      height: 50px;
+    }
+    @media (max-width: 625px) {
+      .homeSection{
+       height: 70vh;
+      }
+      .homeSection img {
+        width: 65vw;
+        height: 70vh;
+      }
+      .homePrev {
+        margin: 11vh auto;
+      }
+      .fTitle {
+        font-size: 28px;
+      }
+      .sTitle {
+        font-size: 20px;
+        padding: 10px;
+        font-family: 'Supernova',
+sans-serif;
+      }
+      .homeBtn {
+        font-size: 26px;
+        margin-top: 35px;
+      }
+      .homeIcons {
+        grid-auto-rows: 50px;
+        grid-template-columns: repeat(2, 50%);
+        margin: 20vh 6vw;
+        
+      }
+   .homeIcons img {
+    width: 45px;
+    height: 45px;
+   }
+   .serviceSub {
+    font-size: 18px;
+   }
+   .serviceP {
+    font-size: 16px;
+   }
+
+      .homeGrid {
+          grid-auto-rows: 250px;
+          grid-template-columns: repeat(3, 150px);
+          gap: 10px;
+        }
+    
+        .serviceIcons {
+          width: 40px;
+          height: 40px;
+        }
+    }
+}
+@media(max-width: 525px) {
+  .homeSection{
+    height: 65vh;
+   }
+   .homeSection img {
+    width: 65vw;
+    height: 65vh;
+  }
+.fTitle {
+  font-size: 24px;
+}
+
+  .homeIcons img {
+    width: 40px;
+    height: 40px;
+   }
+  .homeGrid {
+    grid-auto-rows: 210px;
+    grid-template-columns: repeat(3, 120px);
+    gap: 15px;
+  }
+  .serviceGrid img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .serviceIcons {
+    width: 30px;
+    height: 30px;
+  }
+  .serviceSub {
+    font-size: 17px;
+   }
+}
+@media (max-width: 425px) {
+  .fTitle {
+    font-size: 20px;
+  }
+  .sTitle {
+    font-size: 18px;
+  }
+  .homeIcons {
+    margin: 20vh 4%;
+  }
+  .homeIcons img {
+    width: 40px;
+    height: 40px;
+   }
+  .homeGrid {
+    grid-auto-rows: 200px;
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+  }
+  .serviceGrid img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .serviceIcons {
+    width: 30px;
+    height: 30px;
+  }
+  .serviceSub {
+    font-size: 16px;
+   }
+   .serviceP {
+    font-size: 14px;
+   }
+   
+}

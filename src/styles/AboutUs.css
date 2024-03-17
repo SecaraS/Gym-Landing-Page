@@ -1,0 +1,545 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,500&display=swap');
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(241, 240, 240, 0.373);
+}
+.titleAbout {
+  color: rgb(253, 147, 48);
+  margin-top: 20px;
+  font-size: 38px;
+}
+.containerAbout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 70vh;
+  width: 45vw;
+  background-position: center;
+  background-size: cover;
+  margin: 1vw 6vh;
+}
+.contStory {
+  display: flex;
+  flex-direction: row;
+}
+.train1Img {
+  width: 320px;
+  height: 310px;
+  margin-top: 20px;
+}
+.train2Img {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  margin-left: 150px;
+  margin-top: 160px;
+}
+.train3Img {
+  width: 300px;
+  height: 430px;
+  position: absolute;
+  margin-left: 300px;
+}
+.contStoryText {
+  display: flex;
+  align-items: center;
+  padding-left: 450px;
+}
+
+.aboutText {
+  width: 35vw;
+  border-left: 3px solid orange;
+  padding-left: 20px;
+}
+.textAbout {
+  color: rgb(91, 91, 91);
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  line-height: 1.3;
+}
+.storyTexts {
+  font-size: 26px;
+font-family: 'Noto Sans', sans-serif;
+}
+.train4Img{
+height: 370px;
+width: 300px;
+margin-top: 20px;
+}
+
+.train5Img {
+position: absolute;
+height: 300px;
+width: 450px;
+margin-left: 270px;
+margin-top: 60px;
+}
+.train6Img {
+  height: 400px;
+}
+.train7Img {
+  height: 300px;
+  width: 450px;
+  position: absolute;
+  margin-left: 250px;
+  margin-top: 55px;
+}
+
+@media (max-width: 1350px) {
+  .train1Img {
+    width: 300px;
+      height: 300px;
+  }
+    .train2Img {
+      width: 280px;
+      height: 280px;
+    }
+        .train3Img {
+          width: 290px;
+          height: 420px;
+        }
+
+                .train4Img {
+                  height: 380px;
+                    width: 280px;
+                  margin-top: 30px;
+                }
+        
+                .train5Img {
+                  height: 300px;
+                    width: 410px;
+                    margin-left: 250px;
+                }
+                                .train6Img {
+                                  height: 370px;
+                                }
+                                    .train7Img {
+                                      height: 270px;
+                                       width: 400px;
+                                    }
+
+.storyTexts {
+  font-size: 24px;
+}
+.contStoryText {
+  padding-left: 33vw;
+}
+}
+@media (max-width: 1200px) {
+  .train1Img {
+    width: 250px;
+    height: 260px;
+  }
+  .train2Img {
+    width: 290px;
+    height: 270px;
+    margin-top: 150px;
+  }
+  .train3Img {
+    width: 280px;
+    height: 400px;
+    margin-left: 250px;
+  }
+
+  .train4Img {
+    width: 240px;
+    height: 310px;
+  }
+  .train5Img {
+    width: 350px;
+    height: 260px;
+    margin-left: 220px;
+  }
+
+  .train6Img {
+    height: 320px;
+    width: 250px;
+  }
+  .train7Img {
+    height: 230px;
+    width: 340px;
+    margin-left: 200px;
+  }
+  .storyTexts {
+    font-size: 22px;
+  }
+    .contStoryText {
+      padding-left: 33vw;
+    }
+         .containerAbout {
+           height: 50vh;
+         }
+                 .titleAbout {
+                   margin-bottom: 55px;
+                 }
+}
+@media (max-width: 1050px) {
+  .containerAbout {
+    height: 50vh;
+  }
+  .aboutText {
+    padding-left: 15px;
+    width: 30vw;
+  }
+  .train1Img {
+      width: 250px;
+      height: 270px;
+    }
+  
+    .train2Img {
+      width: 270px;
+      height: 270px;
+      margin-top: 150px;
+    }
+  
+    .train3Img {
+      width: 260px;
+      height: 400px;
+      margin-left: 230px;
+    }
+  
+    .train4Img {
+      width: 250px;
+      height: 300px;
+      margin-top: 40px;
+    }
+  
+    .train5Img {
+      width: 310px;
+      height: 230px;
+      margin-left: 200px;
+      margin-top: 90px;
+    }
+  
+    .train6Img {
+      height: 310px;
+      width: 230px;
+    }
+  
+    .train7Img {
+      height: 230px;
+      width: 320px;
+      margin-left: 170px;
+    }
+  .storyTexts {
+      font-size: 20px;
+    }
+  
+    .contStoryText {
+      padding-left: 31vw;
+    }
+        .titleAbout {
+          margin-bottom: 50px;
+        }
+}
+@media (max-width: 900px) {
+  .train1Img {
+      width: 220px;
+      height: 250px;
+    }
+  
+    .train2Img {
+      width: 260px;
+      height: 270px;
+      margin-top: 140px;
+      margin-left: 70px;
+    }
+  
+    .train3Img {
+      width: 220px;
+      height: 370px;
+      margin-left: 180px;
+    }
+  
+    .train4Img {
+      width: 220px;
+      height: 330px;
+      margin-top: 50px;
+    }
+  
+    .train5Img {
+      width: 280px;
+      height: 220px;
+      margin-left: 160px;
+      margin-top: 140px;
+    }
+  
+    .train6Img {
+      height: 310px;
+      width: 220px;
+      margin-top: 50px;
+    }
+  
+    .train7Img {
+      height: 210px;
+      width: 290px;
+      margin-left: 140px;
+      margin-top: 130px;
+    }
+    .titleAbout {
+      margin-bottom: 50px;
+    }
+        .storyTexts {
+          font-size: 18px;
+        }
+    
+        .contStoryText {
+          padding-left: 31vw;
+        }
+        .aboutText {
+          padding-left: 10px;
+        }
+        .containerAbout {
+          height: 50vh;
+        }
+}
+@media (max-width: 750px) {
+  .train1Img {
+      width: 190px;
+      height: 200px;
+    }
+  
+    .train2Img {
+      width: 220px;
+      height: 230px;
+      margin-top: 110px;
+      margin-left: 70px;
+    }
+  
+    .train3Img {
+      height: 300px;
+      width: 190px;
+      margin-left: 150px;
+    }
+  
+    .train4Img {
+      height: 290px;
+        width: 200px;
+      margin-top: 30px;
+    }
+  
+    .train5Img {
+      height: 210px;
+        width: 300px;
+      margin-left: 50px;
+        margin-top: 180px;
+    }
+  
+    .train6Img {
+      height: 290px;
+      width: 200px;
+      margin-top: 50px;
+    }
+  
+    .train7Img {
+      height: 210px;
+      width: 300px;
+      margin-left: 50px;
+      margin-top: 190px;
+    }
+  
+    .storyTexts {
+      font-size: 16px;
+    }
+  
+    .contStoryText {
+      padding-left: 27vw;
+    }
+    .titleAbout {
+      font-size: 34px;
+      margin-bottom: 50px;
+    }
+    .containerAbout{
+    margin: 0 4vw;
+    height: 53vh;
+}
+}
+
+
+@media (max-width: 600px) {
+  .train1Img {
+    width: 170px;
+    height: 160px;
+  }
+
+  .train2Img {
+    width: 150px;
+    height: 150px;
+    margin-top: 140px;
+    margin-left: 15px;
+  }
+
+  .train3Img {
+    height: 270px;
+    width: 160px;
+    margin-left: 80px;
+  }
+
+  .train4Img {
+    height: 250px;
+    width: 180px;
+    margin-top: 0px;
+  }
+
+  .train5Img {
+    height: 170px;
+    width: 240px;
+    margin-left: 15px;
+    margin-top: 150px;
+  }
+
+  .train6Img {
+    height: 230px;
+    width: 180px;
+    margin-top: 70px;
+  }
+
+  .train7Img {
+    height: 170px;
+    width: 240px;
+    margin-left: 20px;
+    margin-top: 190px;
+  }
+
+  .storyTexts {
+    font-size: 14px;
+  }
+
+  .contStoryText {
+    padding-left: 20vw;
+  }
+
+  .titleAbout {
+    font-size: 26px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+            .containerAbout {
+              height: 47vh;
+            }
+}
+
+@media (max-width: 450px) {
+  .train1Img {
+    width: 180px;
+    height: 0px;
+  }
+
+  .train2Img {
+    width: 0;
+    height: 0;
+  }
+
+  .train3Img {
+    height: 280px;
+    width: 170px;
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+
+  .train4Img {
+    height: 250px;
+    width: 180px;
+    margin-top: 35px;
+  }
+
+  .train5Img {
+    height: 0;
+    width: 0;
+  }
+
+  .train6Img {
+    height: 240px;
+    width: 180px;
+    margin-top: 60px;
+  }
+
+  .train7Img {
+   height: 0;
+   width: 0;
+  }
+
+  .storyTexts {
+    font-size: 14px;
+  }
+
+  .contStoryText {
+    padding-left: 13vw;
+  }
+
+  .titleAbout {
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .containerAbout {
+    height: 40vh;
+  }
+}
+
+@media (max-width: 400px) {
+  .train1Img {
+    width: 160px;
+    height: 0px;
+  }
+
+  .train2Img {
+    width: 0;
+    height: 0;
+  }
+
+  .train3Img {
+    height: 250px;
+    width: 160px;
+    margin-left: 0px;
+    margin-top: 40px;
+  }
+
+  .train4Img {
+    height: 220px;
+    width: 160px;
+    margin-top: 45px;
+  }
+
+  .train5Img {
+    height: 0;
+    width: 0;
+  }
+
+  .train6Img {
+    height: 210px;
+    width: 160px;
+    margin-top: 60px;
+  }
+
+  .train7Img {
+    height: 0;
+    width: 0;
+  }
+
+  .storyTexts {
+    font-size: 12px;
+  }
+
+  .contStoryText {
+    padding-left: 3vw;
+  }
+
+  .titleAbout {
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  .containerAbout {
+    height: 41vh;
+  }
+        .aboutText {
+          width: 35vw;
+          border-left: 2px solid orange;
+          padding-left: 5px;
+        }
+}
