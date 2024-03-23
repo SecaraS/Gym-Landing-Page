@@ -1,10 +1,13 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Available Scripts
 
 In the project directory, you can run:
+### `npm install --force`
+
+Essentially forces npm to reinstall all dependencies.
+
+### `rm -rf node_modules package-lock.json` 
+
+Remove the package-lock.json file and the node_modules directory.
 
 ### `npm start`
 
