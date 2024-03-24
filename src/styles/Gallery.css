@@ -54,12 +54,6 @@ gap: 10px;
 .part3 {
   display: flex;
     flex-direction: column;
-    background-image: 
-url('C:\Users\sergi\OneDrive\Desktop\JsReact\landing-page\src\assets\gallery\dbp.png');
-background-size: 65px;
-    background-repeat: no-repeat;
-    background-position-x: 96%;
-    background-position-y: 8%;
     align-items: center;
     justify-content: center;
     color: white;
@@ -95,9 +89,6 @@ background-size: 65px;
 .part6 {
   display: flex;
   flex-direction: column;
-  background-image: url('C:\Users\sergi\OneDrive\Desktop\JsReact\landing-page\src\assets\gallery\gym2.png');
-  background-repeat: no-repeat;
-  background-size: 85px;
   align-items: center;
   justify-content: center;
   color: rgb(50, 50, 50);
